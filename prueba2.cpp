@@ -1,0 +1,17 @@
+#include <stdio.h> // Librería de Microsoft, solo para ahorrar problemas
+#include <opencv2/opencv.hpp> // Librerías propias opencv
+
+int main()
+{
+
+IplImage* img = cvLoadImage("lena.jpg",1); 
+
+/*Carga una imagen, nombre-ruta de la imagen, usar cualquiera */
+
+cvShowImage("lena",img); // muestra la imagen cargada
+
+cvWaitKey(); // Espera un botón para terminar acción (importante!)
+
+return 0;
+
+}

@@ -1,0 +1,1 @@
+/home/jorge/termografia/prueba2/CMakeFiles/prueba2.dir
