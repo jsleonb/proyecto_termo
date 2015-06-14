@@ -53,38 +53,38 @@ CMAKE_SOURCE_DIR = /home/jorge/termografia/prueba2
 CMAKE_BINARY_DIR = /home/jorge/termografia/prueba2
 
 #=============================================================================
-# Target rules for target CMakeFiles/prueba2.dir
+# Target rules for target CMakeFiles/prueba3.dir
 
 # All Build rule for target.
-CMakeFiles/prueba2.dir/all:
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/depend
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/build
+CMakeFiles/prueba3.dir/all:
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/depend
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/jorge/termografia/prueba2/CMakeFiles  1
-	@echo "Built target prueba2"
-.PHONY : CMakeFiles/prueba2.dir/all
+	@echo "Built target prueba3"
+.PHONY : CMakeFiles/prueba3.dir/all
 
 # Include target in all.
-all: CMakeFiles/prueba2.dir/all
+all: CMakeFiles/prueba3.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/prueba2.dir/rule: cmake_check_build_system
+CMakeFiles/prueba3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/termografia/prueba2/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prueba2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prueba3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/termografia/prueba2/CMakeFiles 0
-.PHONY : CMakeFiles/prueba2.dir/rule
+.PHONY : CMakeFiles/prueba3.dir/rule
 
 # Convenience name for target.
-prueba2: CMakeFiles/prueba2.dir/rule
-.PHONY : prueba2
+prueba3: CMakeFiles/prueba3.dir/rule
+.PHONY : prueba3
 
 # clean rule for target.
-CMakeFiles/prueba2.dir/clean:
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/clean
-.PHONY : CMakeFiles/prueba2.dir/clean
+CMakeFiles/prueba3.dir/clean:
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/clean
+.PHONY : CMakeFiles/prueba3.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/prueba2.dir/clean
+clean: CMakeFiles/prueba3.dir/clean
 .PHONY : clean
 
 #=============================================================================

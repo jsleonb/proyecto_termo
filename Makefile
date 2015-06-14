@@ -99,41 +99,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prueba2
+# Target rules for targets named prueba3
 
 # Build rule for target.
-prueba2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prueba2
-.PHONY : prueba2
+prueba3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prueba3
+.PHONY : prueba3
 
 # fast build rule for target.
-prueba2/fast:
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/build
-.PHONY : prueba2/fast
+prueba3/fast:
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/build
+.PHONY : prueba3/fast
 
-prueba2.o: prueba2.cpp.o
-.PHONY : prueba2.o
+prueba3.o: prueba3.cpp.o
+.PHONY : prueba3.o
 
 # target to build an object file
-prueba2.cpp.o:
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/prueba2.cpp.o
-.PHONY : prueba2.cpp.o
+prueba3.cpp.o:
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/prueba3.cpp.o
+.PHONY : prueba3.cpp.o
 
-prueba2.i: prueba2.cpp.i
-.PHONY : prueba2.i
+prueba3.i: prueba3.cpp.i
+.PHONY : prueba3.i
 
 # target to preprocess a source file
-prueba2.cpp.i:
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/prueba2.cpp.i
-.PHONY : prueba2.cpp.i
+prueba3.cpp.i:
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/prueba3.cpp.i
+.PHONY : prueba3.cpp.i
 
-prueba2.s: prueba2.cpp.s
-.PHONY : prueba2.s
+prueba3.s: prueba3.cpp.s
+.PHONY : prueba3.s
 
 # target to generate assembly for a file
-prueba2.cpp.s:
-	$(MAKE) -f CMakeFiles/prueba2.dir/build.make CMakeFiles/prueba2.dir/prueba2.cpp.s
-.PHONY : prueba2.cpp.s
+prueba3.cpp.s:
+	$(MAKE) -f CMakeFiles/prueba3.dir/build.make CMakeFiles/prueba3.dir/prueba3.cpp.s
+.PHONY : prueba3.cpp.s
 
 # Help Target
 help:
@@ -142,11 +142,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... prueba2"
+	@echo "... prueba3"
 	@echo "... rebuild_cache"
-	@echo "... prueba2.o"
-	@echo "... prueba2.i"
-	@echo "... prueba2.s"
+	@echo "... prueba3.o"
+	@echo "... prueba3.i"
+	@echo "... prueba3.s"
 .PHONY : help
 
 
