@@ -7,10 +7,22 @@
  
 int main()
 {
-IplImage* imagen = cvLoadImage("Pinto.jpg",1); // inicializo imagen
- 
+IplImage* imagen = cvLoadImage("aria.jpg",1); // inicializo imagen
+
+cvNamedWindow("Ejemplo", CV_WINDOW_AUTOSIZE);
+
+cvShowImage("Ejemplo", imagen);
+
+cvReleaseImage(&imagen);
+
+cvWaitKey(0);
+
+cvDestroyWindow("Ejemplo");
+
+
+/* 
 int dato;
-imagen=cvLoadImage("Pinto.jpg",1); // cargamos la imagen
+imagen=cvLoadImage("lena.jpg",1); // cargamos la imagen
 for (int i=10;i<250;i++){      // Recorremos entre i=50 a i=250
     for (int j=150;j<400;j++){
         for (int k=0;k<3;k++){
@@ -24,9 +36,12 @@ for (int i=10;i<250;i++){      // Recorremos entre i=50 a i=250
 cvNamedWindow("Imagen Nueva", 1);
  
 /// muestra las imagenes
-cvShowImage("Imagen Nueva", imagen);
-cvWaitKey(0);
-cvReleaseImage(&imagen);
+
+*/
+
+//cvShowImage("Imagen Nueva", imagen);
+//cvWaitKey(0);
+//cvReleaseImage(&imagen);
  
 return 0;
 }
